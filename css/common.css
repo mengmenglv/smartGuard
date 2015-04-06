@@ -1,0 +1,169 @@
+html,body{margin:0;padding:0;}
+
+/* 修改默认页头*/
+ .ui-page-theme-a .ui-bar-inherit
+{
+    background-color: #4bc1d2;
+    border-color: #4bc1d2;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    color: #F5F5F5;
+}
+
+/*custom icon*/
+
+
+.ui-icon-slide-btn{
+    background:url('../images/slide-button.png') no-repeat 0 0;
+}
+
+.ui-icon-setting-btn{
+    background:url('../images/setting-button.png') no-repeat 0 0;
+}
+
+.ui-icon-home-page,.ui-icon-shop-page,.ui-icon-tag-page,
+.ui-icon-home-page-active,.ui-icon-shop-page-active,.ui-icon-tag-page-active
+{
+    background-position: 50% 20%;
+    border:none;
+    background-color:transparent;
+    background-size:3em,3em;
+    padding-top: 3.5em;
+    margin-top:1em;
+}
+.ui-icon-home-page{
+    background:url('#') no-repeat 0 0;
+}
+.ui-icon-shop-page{
+    background:url('#') no-repeat 0 0;
+}
+.ui-icon-tag-page{
+    background:url('../images/tag.png') no-repeat 0 0;
+    background-position: 50% 20%;
+    border:none;
+    background-color:transparent;
+    background-size:3em,3em;
+    padding-top: 3.5em;
+    margin-top:1em;
+}
+
+.ui-icon-home-page-active{
+    background:url('../images/home-active.png') no-repeat 0 0;
+    background-position: 50% 20%;
+    border:none;
+    background-color:transparent;
+    background-size:3em,3em;
+    padding-top: 3.5em;
+    margin-top:1em;
+}
+.ui-icon-shop-page-active{
+    background:url('#') no-repeat 0 0;
+}
+.ui-icon-tag-page-active{
+    background:url('#') no-repeat 0 0;
+}
+/* 修改默认ICON样式*/
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#homePage.ui-page.ui-page-theme-a.ui-page-active div.ui-header.ui-bar-inherit a.ui-link.ui-btn-left.ui-btn.ui-icon-slide-btn.ui-btn-icon-notext.ui-shadow.ui-corner-all{
+    background-color: transparent;
+}
+html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#homePage.ui-page.ui-page-theme-a.ui-page-active div.ui-header.ui-bar-inherit a.ui-link.ui-btn-right.ui-btn.ui-icon-setting-btn.ui-btn-icon-notext.ui-shadow.ui-corner-all{
+    background-color:transparent;
+}
+.ui-btn-icon-left::after, .ui-btn-icon-right::after, .ui-btn-icon-top::after, .ui-btn-icon-bottom::after, .ui-btn-icon-notext::after {
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
+    background-color: transparent;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+/*页头宽度*/
+html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#homePage.ui-page.ui-page-theme-a.ui-page-active div.ui-header.ui-bar-inherit{
+}
+#homeBg{
+    background: url("../images/homepageBg.png") no-repeat 0 0;
+    color:#898e91;
+    min-height: 10em;
+}
+
+.ui-content{
+    padding:0;
+    margin:0;
+}
+
+label[for="smartGuard"]{
+    margin-top:5em;
+    margin-left:0.5em;
+}
+
+div[data-role="content"]{
+    background:url("../images/contentBg.png") no-repeat 0 0;
+}
+
+/*调整listView*/
+.listTitle{
+    margin-left:0.5em;
+    margin-top:1em;
+    font-size:1.2em;
+    line-height:0.5em;
+    color:#606366;
+}
+
+.listContent{
+    margin-left:0.8em;
+    font-size:0.8em;
+    line-height:1em;
+    color:#898e91;
+
+}
+
+input[id="flip-checkbox"]{
+    margin-top:2em;
+    padding-top:2em;
+}
+
+hr{
+    background-color:#dbd4d0;
+    color:#dbd4d0;
+    border:#dbd4d0 solid 1px;
+
+}
+.ui-overlay-a{
+    background-color:#D4D0CD;
+    color:#D4D0CD;
+}
+/*修改开关按钮*/
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head + body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on::after, html .ui-bar-a .ui-checkbox-on::after, html .ui-body-a .ui-checkbox-on::after, html body .ui-group-theme-a .ui-checkbox-on::after, .ui-btn.ui-checkbox-on.ui-btn-a::after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+    background-color: #898e91;
+    border-color: #898e91;
+    color: #fff;
+    text-shadow: 0 1px 0 #059;
+}
+
+html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#homePage.ui-page.ui-page-theme-a.ui-page-active div.ui-content div.ui-grid-b div.ui-block-c div.ui-flipswitch.ui-shadow-inset.ui-bar-inherit.ui-corner-all{
+    background-color: #898e91;
+}
+
+/* 页尾 */
+html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#homePage.ui-page.ui-page-theme-a.ui-page-active div.ui-footer.ui-bar-inherit{
+    background-color: #fff;
+    border-style: none;
+    border-color:#fff;
+}
+
+/*页尾菜单*/
+
